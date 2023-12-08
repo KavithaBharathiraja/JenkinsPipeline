@@ -18,10 +18,6 @@ pipeline {
             }
         }
         
-        stage('Release') {
-            steps {
-                echo 'Releasing....'
-            }
-        }
+    
     }
 }
